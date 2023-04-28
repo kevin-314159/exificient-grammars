@@ -23,7 +23,7 @@ public class Grammars2JavaSourceCodeTest extends TestCase {
 	static String FILE_SEPARATOR = System.getProperty("file.separator");
 	static String OS = System.getProperty("os.name").toLowerCase();
 
-	static final String EXIFICIENT_CORE_JAR = "/.m2/repository/com/siemens/ct/exi/exificient-core/1.0.5-SNAPSHOT/exificient-core-1.0.5-SNAPSHOT.jar";
+	static final String EXIFICIENT_CORE_JAR = "/.m2/repository/com/objsys/exi/exificient-core/1.0.0-SNAPSHOT/exificient-core-1.0.0-SNAPSHOT.jar";
 
 	XSDGrammarsBuilder grammarBuilder = XSDGrammarsBuilder.newInstance();
 
